@@ -84,10 +84,12 @@ export const Skill_data = [
     {
         name: "Github",
         src: "/github-mark-white.svg",
+        url: "https://github.com/AdairBernal1",
     },
     {
         name: "LinkedIn",
         src: "/icons8-linkedin (1).svg",
+        url: "https://www.linkedin.com/in/adair-bernal/"
     },
   ];
   

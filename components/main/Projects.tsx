@@ -1,3 +1,5 @@
+"use client"
+
 import React from 'react'
 import ProjectCard from '../sub/ProjectCard'
 
@@ -15,16 +17,19 @@ const Projects = () => {
             src='/NextWebsite.png'
             title='Modern Next.js Portfolio'
             description='Lorem ipsum dolor sit amet, consectetur adipscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna'
+            url="https://github.com/AdairBernal1/SIIEE-Backend"
             />
-                        <ProjectCard
+            <ProjectCard
             src='/CardImage.png'
             title='Interactive Website Cards'
             description='Lorem ipsum dolor sit amet, consectetur adipscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna'
+            url="https://github.com/AdairBernal1/SIIEE-Backend"
             />
-                        <ProjectCard
+            <ProjectCard
             src='/SpaceWebsite.png'
             title='Space Themed Website'
             description='Lorem ipsum dolor sit amet, consectetur adipscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna'
+            url="https://github.com/AdairBernal1/SIIEE-Backend"
             />
         </div>
     </div>
