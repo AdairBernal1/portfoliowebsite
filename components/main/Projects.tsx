@@ -10,26 +10,26 @@ const Projects = () => {
     className='flex flex-col items-center justify-center py-20'
     >
         <h1 className='text-[40px] font-semibold text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500 py-20'>
-            My Projects
+            Some of my projects
         </h1>
-        <div className='h-full w-full flex flex-col md:flex-row gap-10 px-10'>
+        <div className='grid grid-cols-1 md:grid-cols-3 gap-10 px-10'>
             <ProjectCard
-            src='/NextWebsite.png'
-            title='Modern Next.js Portfolio'
-            description='Lorem ipsum dolor sit amet, consectetur adipscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna'
+            src='/ai-expression.jpg'
+            title='Facial Expression Analysis and Emotional Evaluation Software'
+            description='This is a work-in-progress project in collaboration with the Autonomous University of Sinaloa and others. It is based in Python and Deepface'
             url="https://github.com/AdairBernal1/SIIEE-Backend"
             />
             <ProjectCard
-            src='/CardImage.png'
-            title='Interactive Website Cards'
-            description='Lorem ipsum dolor sit amet, consectetur adipscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna'
-            url="https://github.com/AdairBernal1/SIIEE-Backend"
+            src='/school-software.jpg'
+            title='Administrative Website for Schools'
+            description='Software made in Angular using Hasura for the backend of the project, along with Auth0 for user authentication and management.'
+            url="https://github.com/AdairBernal1/Hasura-Angular-schoolApp"
             />
             <ProjectCard
-            src='/SpaceWebsite.png'
-            title='Space Themed Website'
-            description='Lorem ipsum dolor sit amet, consectetur adipscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna'
-            url="https://github.com/AdairBernal1/SIIEE-Backend"
+            src='/arduinobot.jpg'
+            title='Arduino-Python-Prolog Security System for Houses'
+            description='AI-assissted security system for house security and privacy, this software sends alerts based on multi-factorial decision made by the intelligent Prolog algorithm.'
+            url="https://github.com/AdairBernal1/House-Security-Bot"
             />
         </div>
     </div>
