@@ -8,14 +8,14 @@ const Navbar = () => {
       <div className="w-full h-full flex flex-row items-center justify-between m-auto px-[10px]">
         <a
           href="#about-me"
-          className="h-auto w-auto flex flex-row items-center obje"
+          className="h-auto w-auto flex flex-row items-center object-contain"
         >
           <Image
             src="/AB-logo.png"
             alt="logo"
-            width={90}
-            height={90}
-            className="cursor-pointer hover:animate-slowspin h-[55px] w-auto"
+            width={45}
+            height={45}
+            className="cursor-pointer hover:animate-slowspin"
           />
           <span className="font-bold ml-[10px] hidden md:block text-gray-300">
             Adair Bernal
@@ -45,8 +45,8 @@ const Navbar = () => {
               <Image
                 src={social.src}
                 alt={social.name}
-                width={30}
-                height={30}
+                width={40}
+                height={40}
                 className="hover: cursor-pointer"
               />
             </a>
