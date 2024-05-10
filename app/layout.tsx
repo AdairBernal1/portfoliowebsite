@@ -8,8 +8,8 @@ import Footer from "@/components/main/Footer";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "My Portfolio",
-  description: "Web Portfolio made on Next.js",
+  title: "Adair Bernal's Portfolio",
+  description: "made on Next.js",
 };
 
 export default function RootLayout({
