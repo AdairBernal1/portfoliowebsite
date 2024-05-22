@@ -47,7 +47,7 @@ const HeroContent = () => {
         </motion.p>
         <motion.a
           variants={slideInFromLeft(1)}
-          href="/EnglishCV-AdairBernal.pdf"
+          href="/RevisedEnglishCV-AdairBernal.pdf"
           download
           className="py-2 button-primary text-center text-white cursor-pointer rounded-lg max-w-[200px]"
         >
